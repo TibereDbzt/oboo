@@ -1,0 +1,135 @@
+@media all and (max-width: 1164px) {
+  aside > .produits-similaires a
+  {
+    width: calc((100% / 2) - (40px / 2));
+  }
+  .produits-similaires
+  {
+    width: 68%;
+    margin: 0 auto;
+  }
+  aside > .produits-similaires a:nth-of-type(2n+2)
+  {
+    margin-right: 0;
+  }
+  aside > .produits-similaires a:nth-of-type(3n+3)
+  {
+    margin-right: inherit;
+  }
+}
+@media all and (max-width: 1150px) {
+  nav > ul:first-of-type
+  {
+    margin-left: 20px;
+  }
+  nav > ul:nth-of-type(2)
+  {
+    margin-right: 20px;
+  }
+  .produit
+  {
+    display: inherit;
+  }
+  .produit-infos
+  {
+    margin: 0 auto;
+  }
+  .produit > .produit-infos > .produit-prix-achat
+  {
+    position: inherit;
+    margin-top: 45px;
+  }
+}
+@media all and (max-width: 600px) {
+  nav > ul
+  {
+    display: none;
+  }
+  .conteneur-logo
+  {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .menu-icon
+  {
+    display: inherit;
+  }
+  .produit > .produit-infos
+  {
+    width: 440px;
+  }
+  .slider-image
+  {
+    width: 440px
+  }
+  .image-container
+  {
+    width: 1320px;
+  }
+  .slide-container
+  {
+    width: 440px;
+  }
+  footer > div
+  {
+    display: inherit;
+  }
+  footer > div > div
+  {
+    margin: 0 auto;
+  }
+  footer > div > .conteneur-logos
+  {
+    margin-bottom: 20px;
+  }
+  footer > div > .conteneur-logos > a:last-of-type
+  {
+    margin-right: 0;
+  }
+  footer > div > .conteneur-texte-footer
+  {
+    width: 80%;
+  }
+}
+@media all and (max-width: 460px) {
+  .produit > .produit-infos
+  {
+    width: 310px;
+  }
+  .slider-image
+  {
+    width: 310px
+  }
+  .image-container
+  {
+    width: 930px;
+  }
+  .slide-container
+  {
+    width: 310px;
+  }
+  article > .titre-desc-section
+  {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  aside > h2
+  {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  aside
+  {
+    margin-bottom: 30px;
+  }
+  .produit > .produit-infos > .produit-details > .produit-couleur
+  {
+    width: 40%;
+    margin-right: 4%;
+  }
+  .produit > .produit-infos > .produit-details > .produit-taille
+  {
+    width: 56%;
+  }
+}

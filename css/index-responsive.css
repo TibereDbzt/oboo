@@ -1,0 +1,150 @@
+@media all and (max-width: 1200px) {
+  .wrap > .conteneur-menu-img
+  {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 1150px) {
+  nav > ul:first-of-type
+  {
+    margin-left: 20px;
+  }
+  nav > ul:nth-of-type(2)
+  {
+    margin-right: 20px;
+  }
+}
+@media all and (max-width: 990px) {
+  .img-modele
+  {
+    width: 292px;
+    bottom: 0;
+    right: 12%;
+  }
+  .img-banane
+  {
+    top: 16%;
+    width: 170px;
+    right: 4%;
+  }
+  .img-tomate
+  {
+    top: 0%;
+    left: 4%;
+    width: 170px;
+  }
+  .conteneur-nav > .slogan-description
+  {
+    width: 80%;
+  }
+  .conteneur-nav > .img-scroll-point
+  {
+    top: 88%;
+  }
+  .conteneur-nav > .img-scroll
+  {
+    top: 87%;
+  }
+}
+@media all and (max-width: 700px) {
+  .conteneur-reviews > .conteneur-reviews-com
+  {
+    display: inherit;
+  }
+  .conteneur-reviews > .conteneur-reviews-com > .contenu-reviews-com
+  {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .conteneur-reviews > .conteneur-reviews-titre
+  {
+    width: 75%;
+    margin-bottom: 80px;
+  }
+  .img-modele
+  {
+    width: 250px;
+    right: 5%;
+  }
+  .conteneur-nav > .slogan-description
+  {
+    width: 95%;
+  }
+}
+@media all and (max-width: 600px) {
+  nav > ul
+  {
+    display: none;
+  }
+  .conteneur-logo
+  {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .menu-icon
+  {
+    display: inherit;
+  }
+  footer > div
+  {
+    display: inherit;
+  }
+  footer > div > div
+  {
+    margin: 0 auto;
+  }
+  footer > div > .conteneur-logos
+  {
+    margin-bottom: 20px;
+  }
+  footer > div > .conteneur-logos > a:last-of-type
+  {
+    margin-right: 0;
+  }
+  footer > div > .conteneur-texte-footer
+  {
+    width: 80%;
+  }
+  .conteneur-nav > .slogan-description > h1
+  {
+    font-size: 3em;
+  }
+}
+@media all and (max-width: 520px) {
+  .img-modele
+  {
+    width: 180px;
+  }
+  .wrap > .conteneur-menu-img
+  {
+    display: inherit;
+  }
+  .wrap > .conteneur-menu-img > div
+  {
+    width: 100%;
+  }
+  .wrap > .conteneur-menu-img > .gauche
+  {
+    margin-bottom: 50px;
+  }
+}
+@media all and (max-width: 400px) {
+  .img-modele
+  {
+    display: none;
+  }
+  .conteneur-nav > .slogan-description > h1
+  {
+    font-size: 2.5em;
+  }
+  .conteneur-nav > .slogan-description > p
+  {
+    font-size: 0.9em;
+  }
+  .img-banane
+  {
+    top: 34%;
+  }
+}

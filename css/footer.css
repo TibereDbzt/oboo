@@ -1,0 +1,60 @@
+.background-noir
+{
+  width: 100%;
+  background-color: #242424;
+  background-size: 100%;
+  padding-bottom: 70px;
+}
+footer
+{
+  text-align: center;
+  padding-top: 60px;
+}
+footer > div
+{
+  display: flex;
+  margin-top: 60px;
+}
+footer > div > .conteneur-logos
+{
+  width: 30%;
+}
+footer > div > .conteneur-logos > a > img
+{
+  padding-bottom: 4px;
+}
+footer > div > .conteneur-logos img[src="images/logo-facebook.svg"]
+{
+  width: 7.5px;
+}
+footer > div > .conteneur-logos img[src="images/logo-twitter.svg"]
+{
+  width: 17px;
+}
+footer > div > .conteneur-logos img[src="images/logo-googleplus.svg"]
+{
+  width: 21px;
+}
+footer > div > .conteneur-texte-footer
+{
+  width: 40%;
+}
+footer > div > .conteneur-texte-footer > p
+{
+  font-size: 0.8em;
+  color: #ffffff;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+}
+footer > p
+{
+  margin-top: 30px;
+  font-size: 0.6em;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+}
+footer a
+{
+  text-decoration: none;
+  margin-right: 21px;
+}
